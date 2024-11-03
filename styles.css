@@ -1,0 +1,137 @@
+/* Font link */
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-bold;
+    src: url(./Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-light-italic;
+    src: url(./Roboto/Roboto-LightItalic.ttf);
+}
+/* Main styling */
+*{
+    font-family: Roboto;
+    margin: 0;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 15px;
+}
+header h3{
+    font-size: 24px;
+    color:#F9FAF8;
+    font-family: Roboto-bold;
+}
+#links{
+    display: flex;
+    gap: 25px;;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+li{
+    list-style: none;
+}
+/* Introduction (First Section) */
+#first-section{
+    background-color: #1f2937;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 80px;
+}
+#description{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    gap:10px;
+}
+#description h2{
+    color: #F9FAF8;
+    font-family: Roboto-bold;
+    font-size: 48px;
+}
+#description p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+#description button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border-radius: 5px;
+    max-width:30%
+}
+/* Information (Second Section) */
+#second-section h3{
+    font-family: Roboto-bold;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 60px;
+}
+#img-container{
+    display: flex;
+    justify-content: center;
+    padding:60px 80px;
+    padding-bottom: 120px;
+    gap:15px;
+    color:grey;
+}
+.lucy{
+    border: 3px #3882f6 solid ;
+    border-radius: 10px;
+}
+/* Quote (Third Section) */
+#third-section{
+    background-color: #E5E7EB;
+    padding:100px 120px;
+}
+#third-section :first-child{
+    font-family: Roboto-light-italic;
+    font-size:36px;
+}
+#third-section :last-child{
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Sign up (Fourth Section) */
+#fourth-section{
+    padding: 100px;
+}
+#button-container{
+    background-color: #3882f6;
+    padding:40px 80px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+#button-container div :first-child, #button-container button{
+    color: #F9FAF8;
+    font-family: Roboto-bold;
+}
+#button-container div :last-child{
+    color: #E5E7EB;
+}
+#button-container button{
+    background-color: #3882f6;
+    border:2px #F9FAF8 solid;
+    border-radius: 5px;
+    padding: 0 30px
+}
+/* Footer */
+footer{
+    background-color: #1F2937;
+    padding: 30px;
+    text-align: center;
+    color: #E5E7EB;
+}
